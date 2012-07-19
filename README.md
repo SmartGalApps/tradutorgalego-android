@@ -1,0 +1,4 @@
+tradutorgalego-android
+======================
+
+TradutorGalego Android
