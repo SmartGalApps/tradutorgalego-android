@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"                
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"            
+    	android:paddingLeft="5dip"
+    	android:text="@string/help_traduction_final"
+        android:autoLink="web" />
+	
+	<ImageView
+	    android:layout_width="250dip"
+	    android:layout_height="82dip"
+	    android:scaleType="centerCrop"
+	    android:layout_gravity="center"
+	    android:src="@drawable/translated" />
+		
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:autoLink="web"
+	    android:paddingBottom="5dip"
+	    android:paddingLeft="5dip"
+	    android:paddingTop="10dip"
+	    android:text="@string/help_traduction_original"
+	    android:textSize="14sp"/>
+	
+	<ImageView
+	    android:layout_width="250dip"
+	    android:layout_height="82dip"	    
+	    android:scaleType="centerCrop"
+	    android:layout_gravity="center"
+	    android:src="@drawable/original" />
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:autoLink="web"
+	    android:paddingBottom="5dip"
+	    android:paddingLeft="5dip"
+	    android:paddingTop="10dip"
+	    android:text="@string/help_traduction_red"
+	    android:textSize="14sp"/>
+	
+	<ImageView
+	    android:layout_width="250dip"
+	    android:layout_height="82dip"	    
+	    android:scaleType="centerCrop"
+	    android:layout_gravity="center"
+	    android:src="@drawable/unknown" />
+	
+</LinearLayout>
+
+</ScrollView>

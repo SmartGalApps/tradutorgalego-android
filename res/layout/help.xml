@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="@string/help_profile"        
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"            
+    	android:paddingLeft="5dip"
+        android:autoLink="web" />
+    
+    <ImageView
+	    android:src="@android:drawable/divider_horizontal_dark"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitXY"
+	    android:padding="12dp" />
+	
+	<RelativeLayout
+        android:id="@+id/sonGalegoLayout" 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="20dip">
+       	<ImageView
+       	    android:id="@+id/sonGalego"
+       	    android:layout_width="50dip"
+    		android:layout_height="50dip" 
+    		android:layout_marginLeft="0dip" 
+    		android:layout_marginRight="20dip"
+    		android:src="@drawable/songalego"/>
+       	<TextView
+       	    android:id="@+id/sonGalegoText"
+       	    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" 
+    		android:layout_marginRight="10dip"
+    		android:layout_toRightOf="@id/sonGalego"
+    		android:layout_centerVertical="true"
+    		android:textSize="20dip"
+    		android:textColor="#DDDDDD"
+    		android:textStyle="bold"
+    		android:text="Son galego"/>
+    </RelativeLayout>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:autoLink="web"
+	    android:paddingBottom="5dip"
+	    android:paddingLeft="5dip"
+	    android:paddingTop="10dip"
+	    android:text="@string/help_profile_gl"
+	    android:textSize="14sp"/>
+    
+    <ImageView
+	    android:src="@android:drawable/divider_horizontal_dark"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitXY"
+	    android:paddingTop="12dp"
+	    android:paddingBottom="12dp"
+	    android:paddingLeft="100dp"
+	    android:paddingRight="100dp" />
+	
+	<RelativeLayout
+        android:id="@+id/sonDeForaLayout" 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="20dip">
+       	<ImageView
+       	    android:id="@+id/sonDeFora"
+       	    android:layout_width="50dip"
+    		android:layout_height="50dip" 
+    		android:layout_marginLeft="0dip" 
+    		android:layout_marginRight="20dip"
+    		android:src="@drawable/sondefora"/>
+       	<TextView
+       	    android:id="@+id/sonGalegoText"
+       	    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" 
+    		android:layout_marginRight="10dip"
+    		android:layout_toRightOf="@id/sonDeFora"
+    		android:layout_centerVertical="true"
+    		android:textSize="20dip"
+    		android:textColor="#DDDDDD"
+    		android:textStyle="bold"
+    		android:text="Son de fóra"/>
+    </RelativeLayout>
+		
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:autoLink="web"
+	    android:paddingBottom="5dip"
+	    android:paddingLeft="5dip"
+	    android:paddingTop="10dip"
+	    android:text="@string/help_profile_other"
+	    android:textSize="14sp"/>
+    
+    <ImageView
+	    android:src="@android:drawable/divider_horizontal_dark"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitXY"
+	    android:padding="12dp" />
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:autoLink="web"
+	    android:paddingBottom="5dip"
+	    android:paddingLeft="5dip"
+	    android:paddingTop="10dip"
+	    android:text="@string/help_profile_change"
+	    android:textSize="14sp"/>
+	
+	<ImageView
+	    android:layout_width="50dip"
+	    android:layout_height="50dip"	    
+	    android:scaleType="centerCrop"
+	    android:layout_gravity="center"
+	    android:src="@drawable/ic_menu_cc" 
+	    android:background="@drawable/help_button"/>
+	
+</LinearLayout>
+
+</ScrollView>

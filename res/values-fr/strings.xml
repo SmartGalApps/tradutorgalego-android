@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about"> à propos de..</string>
+    <string name="app_name">TradutorGalego</string>
+    <string name="cancel">Annuler</string>
+    <string name="cancelled">Annulé</string>
+    <string name="configureNetwork">Configurer réseau</string>
+    <string name="connectionError">. Il y a eu une erreur de connexion. Essayez encore, généralement la deuxième ou la troisième fois ça fonctionne</string>
+    <string name="galappsURL">TraducteurGalicien pour Android! via http://galapps.es</string>
+    <string name="introData">Texte à traduire:</string>
+    <string name="loadingData">Patientez...</string>
+    <string name="noDataConnection"> Pas de connexion de données disponible.</string>
+    <string name="noDataConnectionMessage"> Vous devez disposer d\'une connexion de données pour utiliser l\'application.</string>
+    <string name="noDataDecided">Sans connexion de données on ne peut pas traduire des textes.</string>
+    <string name="ok">Ok</string>
+    <string name="finish">Finir</string>
+    <string name="originalText">Texte originel</string>
+    <string name="selectProfile">Selectionner profil</string>
+    <string name="share">Partager</string>
+    <string name="shareTitle">TraducteurGalicien pour Android!</string>
+    <string name="translatedText">Texte traduit</string>
+    <string name="translateFrom">Traduire du</string>
+    <string name="translateTo">Traduire en</string>
+    <string name="version">Version</string>
+    <string name="webURL">http://www.xunta.es/tradutor/text.do?subjectArea=(GV)&amp;translationDirection=SPANISH-GALICIAN&amp;text=%1$s \n\nvia http://galapps.es</string>
+    <string name="whereAreYouFrom">Alors... Où êtes-vous?</string>
+    <string name="fromAbroad">Je suis étranger</string>
+    <string name="youCanAlwaysChange">Vous pouvez modifier cette préférence quand vous voulez via le menu</string>
+    <string name="internalError"> Mmm ... quelque chose d\'étrange est arrivée, désolés. SVP essayez à nouveau pour voir si ça marche...</string>
+    <string name="conjugateWith">Conjugue \'%1$s\' con:</string>
+    <string name="downloadConxuGalego">Télécharger ConxuGalego</string>
+    <string name="downloadConxuGalegoMessage"> Pour conjuguer le verbe il faut avoir installé l\'application ConxuGalego. Vous vous la  télécharger?</string>
+    <string name="conjugateNotFound">Le terme \'%1$s\' n\'a pas la forme d\'un verbe.</string>
+    <string name="news_title">Nouveautés de la version:</string>
+    <string name="news_title_bis">Nouvelles:</string>
+    <string name="news_1_0">Version 1.0 - Merci d\'avoir téléchargé!</string>
+    <string name="news_1_0_1">Version 1.0.1 - Et voilà l\'interface en catalan! Merci Millán González (millangz@gmail.com)</string>
+    <string name="news_1_0_2">Version 1.0.2 - Fixe problème avec l\'es images de intégration\n- Correction de quelques bugs</string>
+    <string name="news_1_0_3">Version 1.0.3 - Fixe problème dans la page de résultats</string>
+    <string name="news_1_0_3_bis">Le GalApps widget est disponible!!!\nhttps://market.android.com/details?id=es.galapps.android.widget</string>
+    <string name="wordNotFound">Le terme \'%1$s\' n\'est pas dans le dictionnaire</string>
+    
+    <string name="gl">Galicien</string>
+    <string name="es">Espagnol</string>
+    <string name="en">Anglais</string>
+    <string name="fr">Français</string>
+    <string name="cat">Catalan</string>
+    
+    <string name="about_version">Version: </string>
+    <string name="about_developed">Application développée par:</string>
+    <string name="about_dev1">Xurxo Méndez Pérez - @sonxurxo</string>
+    <string name="about_dev1_link">http://blog.sonxurxo.com</string>
+    <string name="about_dev2">Juan Porta Trinidad - @elpolta</string>
+    <string name="about_dev2_link">http://market.android.com/developer?pub=Juan+Porta</string>
+    <string name="about_designed">Designer:</string>
+    <string name="about_designer">Sabela Barreiro González - @sabelabarreiro</string>
+    <string name="about_designer_link">http://sabelabarreiro.com</string>
+    <string name="about_contact">Contacto:</string>
+    <string name="about_contact_link">http://galapps.es - contacto@galapps.es</string>
+    <string name="about_note"> Cette application extrait toutes les traductions du traducteur disponible sur http://www.xunta.es/tradutor/</string>
+    
+    <string name="help_title">Aide</string>
+    <string name="help_next">Suivant</string>
+    <string name="help_select_direction"> Quel que soit votre profil, vous pouvez toujours sélectionner le sens de la traduction (la langue de départ et la langue à laquelle vous voulez traduire le texte).</string>
+    <string name="help_button_direction"> Utilisez le bouton central (flèches) pour sélectionner la langue que vous voulez changer: la langue de départ ou la langue d\'arrivée. Notez que l\'une des deux sera toujours le galicien. </string>
+    <string name="help_edit_text"> Tapez le texte que vous voulez traduire dans la zone de texte (maximum 2500 caractères) et appuyez sur </string>
+    <string name="help_speech"> Vous pouvez également dicter  à voix haute ce que vous voulez traduire en appuyant sur </string>    
+    <string name="help_profile"> La mission du profil est de faciliter l\'utilisation du traducteur.</string>
+    <string name="help_profile_gl"> Si vous êtes  galicien, l\'interface sera en galicien, et celle-ci sera la langue choisie par défaut.</string>
+    <string name="help_profile_other"> Si vous n\'êtes pas galicien, l\'interface sera dans la langue de votre terminal, et les textes seront traduits en galicien par défaut.</string>
+    <string name="help_profile_change"> Vous pouvez toujours modifier le profil dans le menu en appuyant sur l\'icône </string>
+    <string name="help_traduction_final"> Sur l\'écran de traductions on montrera le texte traduit </string>
+    <string name="help_traduction_original">Et le texte originel</string>
+    <string name="help_traduction_red"> La couleur rouge indique qu\'on n\'a trouvé aucune traduction pour les mots répertoriés. </string>
+    
+</resources>

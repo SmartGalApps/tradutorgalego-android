@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="@string/help_select_direction"        
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"            
+    	android:paddingLeft="5dip"
+        android:autoLink="web" />
+    
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:src="@drawable/help_idioma" />
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:autoLink="web"
+	    android:paddingBottom="5dip"
+	    android:paddingLeft="5dip"
+	    android:paddingTop="10dip"
+	    android:text="@string/help_button_direction"
+	    android:textSize="14sp"/>
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:autoLink="web"
+	    android:paddingBottom="5dip"
+	    android:paddingLeft="5dip"
+	    android:paddingTop="10dip"
+	    android:text="@string/help_edit_text"
+	    android:textSize="14sp"/>
+	
+	<ImageButton
+	    android:layout_width="50dip"
+	    android:layout_height="50dip"	    
+	    android:scaleType="centerCrop"
+	    android:layout_gravity="center"
+	    android:clickable="false"
+	    android:src="@drawable/flechaenvio" />
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:autoLink="web"
+	    android:paddingBottom="5dip"
+	    android:paddingLeft="5dip"
+	    android:paddingTop="10dip"
+	    android:text="@string/help_speech"
+	    android:textSize="14sp"/>
+	
+	<ImageButton
+	    android:layout_width="50dip"
+	    android:layout_height="50dip"	    
+	    android:scaleType="centerCrop"
+	    android:layout_gravity="center"
+	    android:clickable="false"
+	    android:src="@drawable/micro" />
+	
+</LinearLayout>
+
+</ScrollView>

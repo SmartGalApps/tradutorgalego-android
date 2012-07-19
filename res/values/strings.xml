@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">About...</string>
+    <string name="app_name">Tradutor Galego</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="configureNetwork">Configure network</string>
+    <string name="connectionError">There was a connection error. Try once or twice again, it usually works at the first or second attempt.</string>
+    <string name="galappsURL">TradutorGalego for Android! via http://galapps.es</string>
+    <string name="introData">Text to translate:</string>
+    <string name="loadingData">Translating...</string>
+    <string name="noDataConnection">There is no data connection available.</string>
+    <string name="noDataConnectionMessage">A data connection is needed for the application to work.</string>
+    <string name="noDataDecided">No text can be translated without data connection.</string>
+    <string name="ok">Ok</string>
+    <string name="finish">Finish</string>
+    <string name="originalText">Original text</string>
+    <string name="selectProfile">Select profile</string>
+    <string name="share">Share</string>
+    <string name="shareTitle">TradutorGalego for Android!</string>
+    <string name="translatedText">Translated text</string>
+    <string name="translateFrom">Translate from</string>
+    <string name="translateTo">Translate to</string>
+    <string name="version">Version</string>
+    <string name="webURL">http://www.xunta.es/tradutor/text.do?subjectArea=(GV)&amp;translationDirection=SPANISH-GALICIAN&amp;text=%1$s \n\nvia http://galapps.es</string>
+    <string name="whereAreYouFrom">So... where are you from?</string>
+    <string name="fromAbroad">I\'m from abroad</string>
+    <string name="youCanAlwaysChange">You can always change this option through the menu</string>
+    <string name="internalError">Mmm... something strange happened, sorry. Please try again...</string>
+    <string name="conjugateWith">Conjugate \'%1$s\' with:</string>
+    <string name="defineWith">Search \'%1$s\' in:</string>
+    <string name="downloadConxuGalego">Download ConxuGalego</string>
+    <string name="downloadConxuGalegoMessage">To conjugate the verb you need to install the application ConxuGalego. Do you want to download it?</string>
+    <string name="downloadDicionarioGalego">Download DicionarioGalego</string>
+    <string name="downloadDicionarioGalegoMessage">To search in the dictionary you need to install the application DicionarioGalego. Do you want to download it?</string>
+    <string name="conjugateNotFound">The term \'%1$s\' does not look like a verb.</string>
+    <string name="news_title">Changes in this version:</string>
+    <string name="news_title_bis">News:</string>
+    <string name="news_1_0">Version 1.0 - Thank you for downloading it!</string>
+    <string name="news_1_0_1">Version 1.0.1 - Now the interface is also in Catalan! Thank you Millán González (millangz@gmail.com)</string>
+    <string name="news_1_0_2">Version 1.0.2\n- Fixed problem with integration images\n- Some bugs fixed</string>
+    <string name="news_1_0_3">Version 1.0.3 - Fixed a bug in translation page</string>
+    <string name="news_1_0_3_bis">GalApps widget is already available!!!\nhttps://market.android.com/details?id=es.galapps.android.widget</string>
+    <string name="wordNotFound">The term \'%1$s\' was not found in the dictionary</string>
+    
+    <string name="gl">Galician</string>
+    <string name="es">Spanish</string>
+    <string name="en">English</string>
+    <string name="fr">French</string>
+    <string name="cat">Catalan</string>
+    
+    <string name="about_version">Version: </string>
+    <string name="about_developed">Developed by:</string>
+    <string name="about_dev1">Xurxo Méndez Pérez - @sonxurxo</string>
+    <string name="about_dev1_link">http://blog.sonxurxo.com</string>
+    <string name="about_dev2">Juan Porta Trinidad - @elpolta</string>
+    <string name="about_dev2_link">http://market.android.com/developer?pub=Juan+Porta</string>
+    <string name="about_designed">Designed by:</string>
+    <string name="about_designer">Sabela Barreiro González - @sabelabarreiro</string>
+    <string name="about_designer_link">http://sabelabarreiro.com</string>
+    <string name="about_contact">Contact:</string>
+    <string name="about_contact_link">http://galapps.es - contacto@galapps.es</string>
+    <string name="about_note">This application obtains all the translations from the translator available at http://www.xunta.es/tradutor/</string>
+    
+    <string name="help_title">Help</string>
+    <string name="help_next">Next</string>
+    <string name="help_select_direction">Whatever your profile is, you can always select the direction of the translation (original language and the language of the translated text).</string>
+    <string name="help_button_direction">Use the middle button (arrows) to select the language you want to change: the original or the final. Keep in mind that one of them must be the Galician language.</string>
+    <string name="help_edit_text">Type the text you want to translate in the input text box (up to 2500 characters) and press</string>
+    <string name="help_speech">You can also dictate the text you want to translate, pressing</string>    
+    <string name="help_profile">We use profiles to facilitate the use of the translator.</string>
+    <string name="help_profile_gl">If you are from Galicia, the interface will be in Galician, and this will be the input language by default.</string>
+    <string name="help_profile_other">If you are not from Galicia, the interface will be in your device\'s language, and texts will be translated to Galician by default.</string>
+    <string name="help_profile_change">You can always change your profile from the menu pressing the following icon</string>
+    <string name="help_traduction_final">In the translations screen you can see the translated text</string>
+    <string name="help_traduction_original">and the original text</string>
+    <string name="help_traduction_red">Red color indicates that there is no available translation for the selected words.</string>
+</resources>

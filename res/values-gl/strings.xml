@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">Acerca de...</string>
+    
+    <string name="app_name">Tradutor Galego</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cancelled">Cancelado</string>
+    <string name="configureNetwork">Configurar rede</string>
+    <string name="connectionError">Houbo un erro na conexión. Téntao un par de veces de novo, normalmente á segunda ou á terceira xa funciona.</string>
+    <string name="errorNoWhitespaces">O infinitivo non pode ter espazos en branco</string>
+    <string name="galappsURL">TradutorGalego para Android! via http://galapps.es</string>
+    <string name="introData">Texto a traducir:</string>
+    <string name="loadingData">Traducindo...</string>
+    <string name="noDataConnection">Non hai conexión de datos dispoñible.</string>
+    <string name="noDataConnectionMessage">É necesario dispoñer de conexión de datos para utilizar a aplicación.</string>
+    <string name="noDataDecided">Sen conexión de datos non se poden traducir textos.</string>
+    <string name="ok">Ok</string>
+    <string name="finish">Rematar</string>
+    <string name="originalText">Texto orixinal</string>
+    <string name="selectProfile">Seleccionar perfil</string>
+    <string name="share">Compartir</string>
+    <string name="shareTitle">TradutorGalego para Android!</string>
+    <string name="translatedText">Texto traducido</string>
+    <string name="translateFrom">Traducir do</string>
+    <string name="translateTo">Traducir ao</string>
+    <string name="version">Version</string>
+    <string name="webURL">http://www.xunta.es/tradutor/text.do?subjectArea=(GV)&amp;translationDirection=SPANISH-GALICIAN&amp;text=%1$s \n\nvia http://galapps.es</string>
+    <string name="whereAreYouFrom">Entón... de onde vés sendo?</string>
+    <string name="fromAbroad">Son de fóra</string>
+    <string name="youCanAlwaysChange">Podes cambiar esta preferencia cando queiras a través do menú</string>
+    <string name="internalError">Mmm... algo raro pasou, sentímolo. Volve tentalo a ver se agora vai...</string>
+    <string name="conjugateWith">Conxuga \'%1$s\' co:</string>
+    <string name="defineWith">Busca \'%1$s\' no:</string>
+    <string name="downloadConxuGalego">Descargar ConxuGalego</string>
+    <string name="downloadConxuGalegoMessage">Para conxugar o verbo é necesario ter instalada a aplicación ConxuGalego. Queres descargala?</string>
+    <string name="downloadDicionarioGalego">Descargar DicionarioGalego</string>
+    <string name="downloadDicionarioGalegoMessage">Para ver a definición é necesario ter instalada a aplicación DicionarioGalego. Queres descargala?</string>
+    <string name="conjugateNotFound">O termo \'%1$s\' non ten forma de verbo.</string>
+    <string name="news_title">Novedades da versión:</string>
+    <string name="news_title_bis">Novas:</string>
+    <string name="news_1_0">Versión 1.0 - Grazas por descargala!</string>
+    <string name="news_1_0_1">Version 1.0.1 - Agora a interface está tamén en catalán! Grazas Millán González (millangz@gmail.com)</string>
+    <string name="news_1_0_2">Versión 1.0.2\n- Solucionado problema de tamaño coas imaxes das integracións\n- Solucionados algúns bugs</string>
+    <string name="news_1_0_3">Versión 1.0.3 - Arranxado un bug na páxina de resultados</string>
+    <string name="news_1_0_3_bis">O widget de GalApps xa está dispoñible!!!\nhttps://market.android.com/details?id=es.galapps.android.widget</string>
+    <string name="wordNotFound">O termo \'%1$s\' non se atopa no dicionario</string>
+    
+    <string name="gl">Galego</string>
+    <string name="es">Español</string>
+    <string name="en">Inglés</string>
+    <string name="fr">Francés</string>
+    <string name="cat">Catalán</string>
+    
+    <string name="about_version">Versión: </string>
+    <string name="about_developed">Aplicación desenvolvida por:</string>
+    <string name="about_dev1">Xurxo Méndez Pérez - @sonxurxo</string>
+    <string name="about_dev1_link">http://blog.sonxurxo.com</string>
+    <string name="about_dev2">Juan Porta Trinidad - @elpolta</string>
+    <string name="about_dev2_link">http://market.android.com/developer?pub=Juan+Porta</string>
+    <string name="about_designed">Aplicación deseñada por:</string>
+    <string name="about_designer">Sabela Barreiro González - @sabelabarreiro</string>
+    <string name="about_designer_link">http://sabelabarreiro.com</string>
+    <string name="about_contact">Contacto:</string>
+    <string name="about_contact_link">http://galapps.es - contacto@galapps.es</string>
+    <string name="about_note">Esta aplicación obtén tódalas traducións do tradutor dispoñible en http://www.xunta.es/tradutor/</string>
+    
+    <string name="help_title">Axuda</string>
+    <string name="help_next">Seguinte</string>
+    <string name="help_select_direction">Seleccione o idioma de orixen y o idioma final</string>
+    <string name="help_button_direction">Utilice o botón do medio para seleccionar o idioma que quere cambiar: o do orixen ou o final</string>
+    <string name="help_remember">Recorde que un dos dous sempre ten que ser o galego</string>
+    <string name="help_edit_text">Utilice a caixa de texto para escribir as palabras (como máximo 2500 caracteres) que quere traducir e pulse</string>
+    <string name="help_speech">Tamén pode dictar en voz alta o que desexa traducir pulsando para iso</string>
+    <string name="help_profile">O perfil ten como misión facilitar o uso do tradutor</string>
+    <string name="help_profile_gl">Usted debe indicar se é galego, pulsando</string>
+    <string name="help_profile_other">Ou se é de fora, pulsado</string>
+    <string name="help_profile_change">Sempre pode modificar o perfil dende o menú no icono</string>
+    <string name="help_traduction_original">Na pantalla de traducións mostrarase o texto orixinal</string>
+    <string name="help_traduction_final">E o texto final</string>
+    <string name="help_traduction_red">A cor vermella que non atopáronse tradución para as palabras indicadas</string>
+
+</resources>

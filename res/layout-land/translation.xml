@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout android:id="@+id/adLayout"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+		<com.google.ads.AdView android:id="@+id/adView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        ads:adUnitId="XXXXXXXXXXXXXX"
+	        ads:adSize="BANNER"
+			ads:loadAdOnCreate="true"/>
+	</LinearLayout>
+	
+    <WebView
+        android:id="@+id/translation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="false"
+        android:background="@drawable/fondo"
+	    android:layout_below="@+id/adLayout" />
+	<LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true" 
+        android:paddingTop="40dip"/> 
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="bottom"
+		android:orientation="vertical">
+		<es.galapps.android.tradutorgalego.util.CustomSlidingDrawer
+			android:id="@+id/drawer"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:allowSingleTap="true"
+			android:animateOnClick="true"
+			android:handle="@+id/handle"
+			android:content="@+id/content">
+		
+			<ImageView
+				android:id="@id/handle"
+				android:layout_width="88dip"
+				android:layout_height="40dip"
+				android:src="@drawable/handle_off"/>
+		
+			<LinearLayout
+				android:id="@id/content"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/sliderborder"
+				android:paddingTop="10dip"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				android:paddingBottom="10dip"
+				android:orientation="horizontal">
+				<LinearLayout
+					android:id="@+id/conjugateContent"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:layout_marginLeft="2dip"
+					android:layout_marginRight="2dip"
+					android:orientation="vertical">
+					<TextView
+					    android:id="@+id/defineText"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginBottom="10dip"
+					    android:gravity="center"
+				        android:textSize="15dip"
+				        android:textColor="#BBBBBB">
+					</TextView>
+					<ImageButton
+						android:id="@+id/define"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_gravity="center"
+					    android:gravity="center"
+					    android:src="@drawable/gotodiccionariobutton"
+					    android:scaleType="centerInside">
+					</ImageButton>
+					<ImageView
+					    android:src="@android:drawable/divider_horizontal_dark"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:scaleType="fitXY"
+					    android:padding="5dp" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/translateContent"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:layout_marginLeft="2dip"
+					android:layout_marginRight="2dip"
+					android:orientation="vertical">
+					<TextView
+					    android:id="@+id/conjugateText"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginBottom="10dip"
+					    android:gravity="center"
+				        android:textSize="15dip"
+				        android:textColor="#BBBBBB">
+					</TextView>
+					<ImageButton
+						android:id="@+id/conjugate"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_gravity="center"
+					    android:gravity="center"
+					    android:src="@drawable/gotoconxugalegobutton"
+					    android:scaleType="centerInside">
+					</ImageButton>
+				</LinearLayout>
+			</LinearLayout>
+		
+		</es.galapps.android.tradutorgalego.util.CustomSlidingDrawer>
+	</LinearLayout>
+</RelativeLayout>

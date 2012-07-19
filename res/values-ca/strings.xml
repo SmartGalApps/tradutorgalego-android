@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">Sobre...</string>
+    
+    <string name="app_name">Tradutor Galego</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="cancelled">Cancel·lat</string>
+    <string name="configureNetwork">Configurar xarxa</string>
+    <string name="connectionError">S\'ha produït un error en la connexió. Torna a intentar-ho un parell de vegades, normalment a la segona o tercera ja funciona.</string>
+    <string name="galappsURL">TradutorGalego per a Android! via http://conxugalego.com</string>
+    <string name="introData">Text per a traduir:</string>
+    <string name="loadingData">Traduint...</string>
+    <string name="noDataConnection">No hi ha connexió de dades disponible.</string>
+    <string name="noDataConnectionMessage">És necessari tenir connexió de dades per fer servir l\'aplicació.</string>
+    <string name="noDataDecided">Sense connexió de dades no es poden traduir textos.</string>
+    <string name="ok">D\'acord</string>
+    <string name="finish">Finalitzar</string>
+    <string name="originalText">Text original</string>
+    <string name="selectProfile">Seleccionar perfil</string>
+    <string name="share">Compartir</string>
+    <string name="shareTitle">TradutorGalego per a Android!</string>
+    <string name="translatedText">Text traduit</string>
+    <string name="translateFrom">Traduir del</string>
+    <string name="translateTo">Traduir al</string>
+    <string name="version">Versió</string>
+    <string name="webURL">http://www.xunta.es/tradutor/text.do?subjectArea=(GV)&amp;translationDirection=SPANISH-GALICIAN&amp;text=%1$s \n\nvia http://conxugalego.com</string>
+    <string name="whereAreYouFrom">Doncs, d\'on ets?</string>
+    <string name="fromAbroad">Sóc de fora</string>
+    <string name="youCanAlwaysChange">Pots canviar aquesta preferència quan vulguis a través del menú</string>
+    <string name="internalError">Mmm... ha passat alguna cosa extranya, ho sentim. Torna a intentar-ho a veure si ara va...</string>
+    <string name="conjugateWith">Conjuga \'%1$s\' amb:</string>
+    <string name="defineWith">Busca \'%1$s\' amb:</string>
+    <string name="downloadConxuGalego">Descarregar ConxuGalego</string>
+    <string name="downloadConxuGalegoMessage">Per a conjugar el verb és necessari tenir instal·lada l\'aplicació ConxuGalego. ¿Vols descarregar-la?</string>
+    <string name="downloadDicionarioGalego">Descarregar DicionarioGalego</string>
+    <string name="downloadDicionarioGalegoMessage">Per a veure la definició és necessari tenir instal·lada l\'aplicació DicionarioGalego. ¿Vols descarregar-la?</string>
+    <string name="conjugateNotFound">El terme \'%1$s\' no té forma de verb.</string>
+    <string name="news_title">Novetats de la versió:</string>
+    <string name="news_title_bis">Notícies:</string>
+    <string name="news_1_0">Versión 1.0 - Gràcies per descarregar-la!</string>
+    <string name="news_1_0_1">Version 1.0.1 - Nou idioma català inclòs!</string>
+    <string name="news_1_0_2">Version 1.0.2\n- Solucionat problema de mida amb les imatges de les integracions\n- Solucionats alguns bugs</string>
+    <string name="news_1_0_3">Versión 1.0.3 - Arreglat un bug a la pàgina de resultats</string>
+    <string name="news_1_0_3_bis">El widget de GalApps ja està disponible!!!\nhttps://market.android.com/details?id=es.galapps.android.widget</string>
+    <string name="wordNotFound">El terme \'%1$s\' no es troba al diccionari</string>
+    
+    <string name="gl">Gallec</string>
+    <string name="es">Castellà</string>
+    <string name="en">Anglès</string>
+    <string name="fr">Francès</string>
+    <string name="cat">Català</string>
+    
+    <string name="about_version">Versió: </string>
+    <string name="about_developed">Aplicació desenvolupada per:</string>
+    <string name="about_dev1">Xurxo Méndez Pérez - @sonxurxo</string>
+    <string name="about_dev1_link">http://blog.sonxurxo.com</string>
+    <string name="about_dev2">Juan Porta Trinidad - @elpolta</string>
+    <string name="about_dev2_link">http://market.android.com/developer?pub=Juan+Porta</string>
+    <string name="about_designed">Aplicació dissenyada per:</string>
+    <string name="about_designer">Sabela Barreiro González - @sabelabarreiro</string>
+    <string name="about_designer_link">http://sabelabarreiro.com</string>
+    <string name="about_contact">Contacte:</string>
+    <string name="about_contact_link">http://conxugalego.com</string>
+    <string name="about_note">Aquesta aplicació obté totes les traduccions del traductor disponible a http://www.xunta.es/tradutor/</string>
+    
+    <string name="help_title">Ajuda</string>
+    <string name="help_next">Següent</string>
+    <string name="help_select_direction">Sigui quin sigui el teu perfil, sempre pots seleccionar el sentit de la traducció (idioma original i idioma al que vols traduir el text).</string>
+    <string name="help_button_direction">Utilitza el botó del mig (flechas) per a seleccionar el idioma que vols canviar: el de origen o el de destí. Has de tenir en compte que un dels dos sempre serà el gallec.</string>
+    <string name="help_edit_text">Escriu el text que vols traduir en la caixa de text (com màxim 2500 caràcters) i prem</string>
+    <string name="help_speech">També pots dictar en veu alta el que vols traduir prement</string>    
+    <string name="help_profile">El perfil té com missió facilitar l\'ús del traductor.</string>
+    <string name="help_profile_gl">Si ets gallec, la interfície estarà en gallec i aquest serà el idioma d\'entrada del text per defecte.</string>
+    <string name="help_profile_other">Si no ets gallec, la interfície estarà en el idioma del teu terminal i els textos es traduiran per defecte al gallec.</string>
+    <string name="help_profile_change">Sempre pots modificar el perfil des de el menú prement la icona</string>
+    <string name="help_traduction_final">En la pantalla de traduccions es mostrarà el text traduit</string>
+    <string name="help_traduction_original">I el text original</string>
+    <string name="help_traduction_red">El color vermell indica que no s\'ha trobat traducció per a les paraules assenyalades.</string>
+</resources>

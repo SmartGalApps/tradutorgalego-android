@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">Acerca de...</string>
+    
+    <string name="app_name">Tradutor Galego</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cancelled">Cancelado</string>
+    <string name="configureNetwork">Configurar red</string>
+    <string name="connectionError">Hubo un error en la conexión. Inténtalo un par de veces de nuevo, normalmente a la segunda o a la tercera ya funciona.</string>
+    <string name="galappsURL">TradutorGalego para Android! via http://galapps.es</string>
+    <string name="introData">Texto a traducir:</string>
+    <string name="loadingData">Traduciendo...</string>
+    <string name="noDataConnection">No hay conexión de datos disponible.</string>
+    <string name="noDataConnectionMessage">Es necesario disponer de conexión de datos para utilizar la aplicación.</string>
+    <string name="noDataDecided">Sin conexión de datos no se pueden traducir textos.</string>
+    <string name="ok">Ok</string>
+    <string name="finish">Finalizar</string>
+    <string name="originalText">Texto original</string>
+    <string name="selectProfile">Seleccionar perfil</string>
+    <string name="share">Compartir</string>
+    <string name="shareTitle">TradutorGalego para Android!</string>
+    <string name="translatedText">Texto traducido</string>
+    <string name="translateFrom">Traducir del</string>
+    <string name="translateTo">Traducir al</string>
+    <string name="version">Versión</string>
+    <string name="webURL">http://www.xunta.es/tradutor/text.do?subjectArea=(GV)&amp;translationDirection=SPANISH-GALICIAN&amp;text=%1$s \n\nvia http://galapps.es</string>
+    <string name="whereAreYouFrom">¿Entonces, de dónde eres?</string>
+    <string name="fromAbroad">Soy de fuera</string>
+    <string name="youCanAlwaysChange">Puedes cambiar esta preferencia cuando quieras a través del menú</string>
+    <string name="internalError">Mmm... algo raro pasó, lo sentimos. Vuelve a intentarlo a ver si ahora va...</string>
+    <string name="conjugateWith">Conjuga \'%1$s\' con:</string>
+    <string name="defineWith">Busca \'%1$s\' en el:</string>
+    <string name="downloadConxuGalego">Descargar ConxuGalego</string>
+    <string name="downloadConxuGalegoMessage">Para conjugar el verbo es necesario tener instalada la aplicación ConxuGalego. ¿Quieres descargarla?</string>
+    <string name="downloadDicionarioGalego">Descargar DicionarioGalego</string>
+    <string name="downloadDicionarioGalegoMessage">Para ver la definición es necesario tener instalada la aplicación DicionarioGalego. ¿Quieres descargarla?</string>
+    <string name="conjugateNotFound">El término \'%1$s\' no tiene forma de verbo.</string>
+    <string name="news_title">Novedades de la versión:</string>
+    <string name="news_title_bis">Notícias:</string>
+    <string name="news_1_0">Versión 1.0 - Gracias por descargarla!</string>
+    <string name="news_1_0_1">Version 1.0.1 - Ahora la interfaz está traducida también al catalán! Gracias Millán González (millangz@gmail.com)</string>
+    <string name="news_1_0_2">Versión 1.0.2\n- Solucionado problema de tamaño con las imágenes de las integraciones\n- Solucionados algunos bugs</string>
+    <string name="news_1_0_3">Versión 1.0.3 - Arreglado un bug en la página de resultados</string>
+    <string name="news_1_0_3_bis">El widget de GalApps ya está disponible!!!\nhttps://market.android.com/details?id=es.galapps.android.widget</string>
+    <string name="wordNotFound">El término \'%1$s\' no se encuentra en el diccionario</string>
+    
+    <string name="gl">Gallego</string>
+    <string name="es">Español</string>
+    <string name="en">Inglés</string>
+    <string name="fr">Francés</string>
+    <string name="cat">Catalán</string>
+    
+    <string name="about_version">Versión: </string>
+    <string name="about_developed">Aplicación desarrollada por:</string>
+    <string name="about_dev1">Xurxo Méndez Pérez - @sonxurxo</string>
+    <string name="about_dev1_link">http://blog.sonxurxo.com</string>
+    <string name="about_dev2">Juan Porta Trinidad - @elpolta</string>
+    <string name="about_dev2_link">http://market.android.com/developer?pub=Juan+Porta</string>
+    <string name="about_designed">Aplicación diseñada por:</string>
+    <string name="about_designer">Sabela Barreiro González - @sabelabarreiro</string>
+    <string name="about_designer_link">http://sabelabarreiro.com</string>
+    <string name="about_contact">Contacto:</string>
+    <string name="about_contact_link">http://galapps.es - contacto@galapps.es</string>
+    <string name="about_note">Esta aplicación obtiene todas las traducciones del traductor disponible en http://www.xunta.es/tradutor/</string>
+    
+    <string name="help_title">Ayuda</string>
+    <string name="help_next">Siguiente</string>
+    <string name="help_select_direction">Sea cual sea tu perfil, siempre puedes seleccionar el sentido de la traducción (idioma original e idioma al que quieres traducir el texto).</string>
+    <string name="help_button_direction">Utiliza el botón del medio (flechas) para seleccionar el idioma que quieres cambiar: el de origen o el final. Ten en cuenta que uno de los dos siempre será el gallego.</string>
+    <string name="help_edit_text">Escribe el texto que quieres traducir en la caja de texto (como máximo 2500 caracteres) y pulsa</string>
+    <string name="help_speech">También puedes dictar en voz alta lo que quieres traducir pulsando para ello</string>    
+    <string name="help_profile">El perfil tiene como misión facilitar el uso del traductor.</string>
+    <string name="help_profile_gl">Si eres gallego, la interfaz estará en gallego, y ése será el idioma de entrada del texto por defecto.</string>
+    <string name="help_profile_other">Si no eres gallego, la interfaz estará en el idioma de tu terminal, y los textos se traducirán por defecto al gallego.</string>
+    <string name="help_profile_change">Siempre puede modificar el perfil desde el menú pulsando en el icono</string>
+    <string name="help_traduction_final">En la pantalla de traducciones se mostrará el texto traducido</string>
+    <string name="help_traduction_original">Y el texto original</string>
+    <string name="help_traduction_red">El color rojo indica que no se ha encontrado traducción para las palabras señaladas.</string>
+
+</resources>
